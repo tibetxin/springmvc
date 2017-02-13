@@ -2,5 +2,6 @@
 只需要在spring-servlet.xml中添加配置，这种方式是针对拦截所有请求的时候有效果/*
   <!--  //springmvc指定静态文件的访问方式，规定读取方式-->
     <mvc:resources location="/images/" mapping="/images/**"/>
+    js,css,images就可以采用这种方式
 
 
